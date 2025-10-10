@@ -27,3 +27,7 @@ To run the project locally:
 2.  Install dependencies: `npm install`
 3.  Start the development server: `npm run dev`
 4.  Open your browser to `http://localhost:3000` (or the address provided by Vite).
+
+## Download
+
+[Download Android Debug APK](https://github.com/user-attachments/files/22854990/Attendance-calculator-Pro.zip)
