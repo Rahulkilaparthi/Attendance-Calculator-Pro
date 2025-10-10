@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Calculator Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      html {
+        font-family: 'Inter', sans-serif;
+      }
+      
+      /* Light theme scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f5f9;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #94a3b8;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #64748b;
+      }
+
+      /* Dark theme scrollbar */
+      .dark ::-webkit-scrollbar-track {
+        background: #0f172a; /* bg-slate-900 */
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #475569; /* bg-slate-600 */
+      }
+      .dark ::-webkit-scrollbar-thumb:hover {
+        background: #64748b; /* bg-slate-500 */
+      }
+
+      /* Animated Gradient Background */
+      body {
+        transition: background-color 0.5s ease;
+        background-color: #f0f4f9; /* Fallback */
+        background-image: radial-gradient(at 0% 0%, #dde8f8 0px, transparent 50%),
+                          radial-gradient(at 95% 90%, #e3e8f1 0px, transparent 50%);
+      }
+      .dark body {
+        background-color: #0b1120; /* Fallback */
+        background-image: radial-gradient(at 0% 0%, hsl(224, 40%, 15%) 0px, transparent 50%),
+                          radial-gradient(at 95% 90%, hsl(240, 30%, 10%) 0px, transparent 50%);
+      }
+
+      /* Glassmorphism Panel Style */
+      .glass-panel {
+        background-color: rgba(255, 255, 255, 0.6);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        transition: all 0.3s ease;
+      }
+      .dark .glass-panel {
+        background-color: rgba(15, 23, 42, 0.6); /* slate-900/60 */
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.23.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.3.1"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/Attendance-Calculator-Pro/assets/index-DUh8JuOB.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
