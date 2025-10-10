@@ -1,0 +1,5 @@
+{
+  "name": "Attendance Calculator Pro",
+  "description": "A modern and intuitive attendance calculator for college students to track their academic standing, calculate required attendance, and manage records efficiently. The app features a clean, mobile-friendly interface with visual indicators for attendance status.",
+  "requestFramePermissions": []
+}
